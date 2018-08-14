@@ -75,3 +75,36 @@ nav ul li {
       display: none;
     }
 }
+
+.banner {
+  display: flex;
+  background-color: #2196f3;
+  align-items: center;
+}
+
+.banner img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner .right {
+  width: 40%;
+  margin: 0 2rem;
+}
+
+.banner span {
+  text-align: left;
+}
+
+.banner h1, .banner h2 {
+  padding-bottom: 1.5rem;
+}
+
+.button {
+  padding: 0.5rem;
+  width: 90%;
+  text-align: center;
+  color: white;
+  line-height: 2rem;
+  background-color: black;
+}
