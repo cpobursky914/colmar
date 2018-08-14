@@ -203,3 +203,12 @@ div.event:hover {
 .event span {
   width: 65%;
 }
+
+.event h2, .event p {
+  padding-bottom: 0.5rem;
+}
+
+.event a {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
