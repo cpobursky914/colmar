@@ -114,6 +114,12 @@ nav ul li {
   background-color: black;
 }
 
+.button:hover {
+  color: black;
+  background-color: gainsboro;
+  transition: background-color 0.1s linear 0s;
+}
+
 @media only screen and (max-width: 460px) {
     .banner {
       display: block;
@@ -181,6 +187,11 @@ div.event {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+
+div.event:hover {
+  background-color: gainsboro;
+  transition: background-color 0.1s linear 0s;
 }
 
 .event img {
