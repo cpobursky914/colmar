@@ -212,3 +212,36 @@ div.event:hover {
   font-weight: bold;
   font-size: 0.75rem;
 }
+
+@media only screen and (max-width: 1600px) {
+  .mobileinfo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .info {
+    display: none;
+  }
+
+  .mobileinfo {
+    display: contents;
+    padding: 1rem;
+  }
+
+  div.event {
+    display: inline-block;
+  }
+
+  .event img {
+    height: auto;
+    width: 100%
+  }
+
+  .event span {
+    width: 100%;
+  }
+
+  .event h2, .event p, .event a {
+    padding-left: 1rem;
+}
