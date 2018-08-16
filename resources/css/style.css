@@ -26,12 +26,12 @@ p {
   display: flex;
 }
 
-header {
+header, footer {
   width: 100%;
   background-color: white;
 }
 
-header .container {
+header .container, footer .container {
   display: flex;
   justify-content: space-between;
   height: 4rem;
@@ -67,17 +67,17 @@ nav ul li {
 }
 
 @media only screen and (max-width: 460px) {
-    nav.desktop {
-      display: none;
-    }
+  nav.desktop {
+    display: none;
+  }
 
-    nav.mobilenav {
-      display: contents;
-    }
+  nav.mobilenav {
+    display: contents;
+  }
 
-    .logo span, .logo span.bold {
-      display: none;
-    }
+  .logo span, .logo span.bold {
+    display: none;
+  }
 }
 
 .banner {
@@ -86,9 +86,15 @@ nav ul li {
   align-items: center;
 }
 
-.banner img {
+.banner .left {
   width: 60%;
-  padding: 2rem 1.5rem;
+}
+
+.left img {
+  width: 95%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
 }
 
 .banner .right {
@@ -125,9 +131,13 @@ nav ul li {
     display: block;
   }
 
-  .banner img {
+  .banner .left {
     width: 100%;
     padding: 0;
+  }
+
+  .left img {
+    width: 100%;
   }
 
   .banner .right {
@@ -137,6 +147,10 @@ nav ul li {
 
   .banner h1 {
     padding-bottom: 2rem;
+  }
+
+  .banner h1, .banner h2 {
+    max-width: 440px;
   }
 
   .button {
@@ -226,7 +240,7 @@ div.event:hover, div.example:hover {
 }
 
 @media only screen and (max-width: 460px) {
-  .info {
+  .info, div.projects, div.caption {
     display: none;
   }
 
@@ -250,6 +264,14 @@ div.event:hover, div.example:hover {
 
   .event h2, .event p, .event a {
     padding-left: 1rem;
+  }
+
+  div#video {
+    width: 100%;
+  }
+
+  #video video {
+    padding-bottom: 2rem;
   }
 }
 
@@ -333,4 +355,14 @@ div.course-content {
 
 .thesis h1 {
   padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #2196f3;
+  color: white;
+  max-width: 1500px;
+}
+
+.copyright {
+  padding-left: 1.5rem;
 }
