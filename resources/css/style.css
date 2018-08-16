@@ -145,17 +145,17 @@ nav ul li {
   }
 }
 
-.info {
+.info, div.exhibit {
   display: flex;
   background-color: white;
   align-items: flex-start;
 }
 
-div.main {
+div.main, div#video {
   width: 60%;
 }
 
-.main img {
+.main img, #video video {
   width: 90%;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -167,9 +167,10 @@ div.caption {
   padding-left: 1.5rem;
   width: 90%;
   line-height: 1.25rem;
+  text-align: left;
 }
 
-.info .additional {
+.info .additional, div.projects {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -185,29 +186,30 @@ div.caption {
   padding-bottom: 1.5rem;
 }
 
-div.event {
+div.event, div.example {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-div.event:hover {
+div.event:hover, div.example:hover {
   background-color: gainsboro;
   transition: background-color 0.1s linear 0s;
 }
 
-.event img {
+.event img, .example img {
   height: auto;
   width: 35%;
   padding: 1rem;
 }
 
-.event span {
+.event span, .example span {
   width: 65%;
+  text-align: left;
 }
 
-.event h2, .event p {
+.event h2, .event p .example h2, .example p {
   padding-bottom: 0.5rem;
   line-height: 1.25rem;
 }
@@ -331,8 +333,4 @@ div.course-content {
 
 .thesis h1 {
   padding-bottom: 2rem;
-}
-
-div.exhibit {
-  display: flex;
 }
