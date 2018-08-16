@@ -268,10 +268,12 @@ div.event:hover {
   margin: 1rem;
 }
 
-div.course-img {
+div.course-img img {
     height: auto;
+    max-height: 50%;
     max-width: 100%;
-    overflow: hidden;
+    overflow:  hidden;
+    align-items: stretch;
 }
 
 div.course-content {
