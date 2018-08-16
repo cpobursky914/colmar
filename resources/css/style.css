@@ -121,18 +121,18 @@ nav ul li {
 }
 
 @media only screen and (max-width: 460px) {
-    .banner {
-      display: block;
-    }
+  .banner {
+    display: block;
+  }
 
-    .banner img {
-      width: 100%;
-      padding: 0;
-    }
-
-    .banner .right {
+  .banner img {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 0;
+  }
+
+  .banner .right {
+  width: 100%;
+  padding: 2rem 1rem;
   }
 
   .banner h1 {
@@ -312,3 +312,27 @@ div.course-content {
     background-color: white;
     color: black;
   }
+
+  .pair:hover {
+    color: black;
+    background-color: gainsboro;
+    transition: background-color 0.1s linear 0s;
+  }
+}
+
+.thesis {
+  max-width: 1500px;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.thesis h1 {
+  padding-bottom: 2rem;
+}
+
+div.exhibit {
+  display: flex;
+}
