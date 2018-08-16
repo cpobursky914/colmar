@@ -283,3 +283,27 @@ div.course-content {
 div.course-content span {
   line-height: 2rem;
 }
+
+@media only screen and (max-width: 460px) {
+  div.course-img, div.course-content span, div.course-content p {
+    display: none;
+  }
+
+div.course-content {
+  padding: 1rem;
+}
+
+  .flexbox {
+    display: block;
+  }
+
+  div.headline {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .pair {
+    width: 100%;
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+  }
