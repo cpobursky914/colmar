@@ -162,7 +162,6 @@ div.main {
 
 div.caption {
   padding-left: 1.5rem;
-  padding-bottom: 1rem;
   width: 90%;
 }
 
@@ -244,4 +243,41 @@ div.event:hover {
 
   .event h2, .event p, .event a {
     padding-left: 1rem;
+  }
+}
+
+.learning {
+  max-width: 1500px;
+  background-color: #2196f3;
+  padding: 2rem 3.5rem;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pair {
+  width: 25%;
+  text-align: left;
+  background-color: white;
+  margin: 1rem;
+}
+
+div.course-img {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+div.course-content {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+div.course-content span {
+  line-height: 2rem;
 }
