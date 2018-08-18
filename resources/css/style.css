@@ -3,6 +3,12 @@ html {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 660px) {
+  html {
+    max-width: 660px;
+    overflow-x: hidden;
+  }
+}
 .bold {
   font-weight: bold;
 }
@@ -66,7 +72,7 @@ nav ul li {
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 660px) {
   nav.desktop {
     display: none;
   }
@@ -126,7 +132,7 @@ nav ul li {
   transition: background-color 0.1s linear 0s;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 660px) {
   .banner {
     display: block;
   }
@@ -138,6 +144,8 @@ nav ul li {
 
   .left img {
     width: 100%;
+    padding-left: 0;
+    padding-top: 0;
   }
 
   .banner .right {
@@ -150,7 +158,7 @@ nav ul li {
   }
 
   .banner h1, .banner h2 {
-    max-width: 440px;
+    width: 90%;
   }
 
   .button {
@@ -239,7 +247,7 @@ div.event:hover, div.example:hover {
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 660px) {
   .info, div.projects, div.caption {
     display: none;
   }
@@ -255,7 +263,9 @@ div.event:hover, div.example:hover {
 
   .event img {
     height: auto;
-    width: 100%
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .event span {
@@ -313,7 +323,7 @@ div.course-content span {
   line-height: 2rem;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 660px) {
   div.course-img, div.course-content span, div.course-content p {
     display: none;
   }
