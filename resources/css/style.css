@@ -13,6 +13,10 @@ html {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: bold;
   font-size: 2rem;
@@ -64,6 +68,14 @@ nav {
 nav ul li {
   display: inline-block;
   padding-right: 1rem;
+}
+
+nav ul li a{
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #2196f3;
 }
 
 @media only screen and (max-width: 1600px) {
